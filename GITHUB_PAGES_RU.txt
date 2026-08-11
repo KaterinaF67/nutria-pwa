@@ -1,0 +1,15 @@
+НУТРИЯ PWA — КАК ВЫЛОЖИТЬ НА GITHUB PAGES
+
+1. Создай новый репозиторий nutria-pwa (можно Public; GitHub Pages на Free для private обычно недоступен без подходящего плана).
+2. Скопируй ВСЁ содержимое этой папки в репозиторий.
+3. В терминале:
+   git init
+   git add .
+   git commit -m "Nutria PWA local v1"
+   git branch -M main
+   git remote add origin https://github.com/ТВОЙ_ЛОГИН/nutria-pwa.git
+   git push -u origin main
+4. GitHub → Settings → Pages → Deploy from a branch → main → /(root) → Save.
+5. Открой ссылку GitHub Pages.
+
+ВАЖНО: данные каждого пользователя хранятся только на его устройстве. Для переноса используй Резервная копия → JSON.
